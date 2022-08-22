@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+  margin: auto;
+ }
+
+ .bar {
+  width: 350px;
+ }
+
+ .qanda {
+  display: flex;
+  margin: 10px;
+  width: 70vw;
+ }
+
+ .qandatab {
+  background-color: rgb(0, 0, 0, 0.1);
+  height: 100px;
+  width: 10px;
+ }
+
+ .grouped {
+  display: flex;
+  flex-direction: column;
+  justify-content:end;
+  padding-left: 10px;
+}
+
+  #answer {
+  background-color: rgb(253, 255, 219);
+  }

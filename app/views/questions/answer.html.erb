@@ -1,0 +1,16 @@
+<h1 class="mt-3">Stupid Coaching</h1>
+<div class="qanda">
+  <div class="qandatab"></div>
+  <div class="grouped">
+    <p class="font-weight-bold"><%= p @question %></p>
+    <p><em> - You</em></p>
+  </div>
+</div>
+<div class="qanda" >
+  <div class="qandatab"></div>
+  <div class="grouped w-100" id="answer">
+    <p class="font-weight-bold"><%= p @answer %></p>
+    <p><em> - Your Coach</em></p>
+  </div>
+</div>
+<%= link_to "Ask a new question", ask_path, { class:"m-3" }%>
